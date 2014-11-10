@@ -1,0 +1,248 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-image:url(images/white1.jpg);
+	/*color:#FFFFFF;*/
+/*	background-color:rgba(61,167,180,1.0);*/
+}
+
+#start {
+	border:3px double rgba(0,0,0,0.8);
+	width:25%;
+	font-family:NikaiaRegular;
+	font-size:220%;
+	margin-left: 35%;
+	margin-top: 10%;
+}
+
+#mainContent {
+	display:none;
+}
+
+
+/*#header {
+	align-content:flex-end;
+	width:100%;
+	border:1px solid;
+}
+*/
+h1 {
+
+	font-size: 360%;
+	font-family:edoregular,titillium_bdbold,blackjackregular;
+	letter-spacing: 2px;
+	word-spacing: 5px;
+	/*border:1px solid#000000;*/
+	width: 30%;
+	margin-left: 35%;
+}
+
+h3{
+	font-family: "Myriad Pro",titillium_bdbold;
+}
+
+#puzzleImage {
+	margin-left: 0%;
+	margin-right: 10%;
+	float:right;
+	clear:left;
+	border:none;
+	/*background-color:rgba(107,191,9,1.00);*/
+	/*padding-left: 15%;
+	padding-top: 5%;
+	padding-bottom: 5%;*/
+}
+
+#puzzleImage img{
+	
+}
+
+/*#puzzleImage img{
+	margin-bottom: -5px;
+	margin-right: -4px;
+	height: 125px;
+	width: 150px;
+}*/
+
+#submission {
+	font-size: 150%;
+	width: 40%;
+	/*border:1px solid #000000;*/
+	padding-left: 10px;
+	font-family:"Myriad Pro",blackjackregular;
+}
+
+/*#mainContent {
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color:rgba(104,80,80,0.8);
+	padding-left: 05%;
+	padding-top: 05%;
+	padding-bottom: 5%;
+}*/
+
+
+/*#feedback {
+	width: 50%;
+	margin-left: 10%;
+	margin-top: 5%;
+	border: 1px solid #000000;
+}
+*/
+#ans {
+	font-size: 120%;
+	border:1px solid #000000;
+	margin:5% 2.5% 2% 2.5%;
+	width: 90%;
+	font-family:"Myriad Pro",blackjackregular;
+	background-color:rgba(360,360,360,0.8);
+	padding: 2% 0% 2% 0;
+}
+
+[type="button"] {
+	/*opacity:0.25;*/
+	margin:5% 5% 5% 5%;
+	padding: 3.5% 0 3.5% 0;
+	font-family:"Myriad Pro",blackjackregular;
+	background-color:rgba(176,65,38,1.0);
+	border:2px solid #000000;
+	color: #FFFFFF;
+	border-radius: 8px;
+	box-shadow:4px 5px 15px black;
+	font-size: 120%;
+	width: 40%;
+}
+
+/*#sub {
+	
+	background-color:rgba(176,65,38,1.0);
+	color:#FFFFFF;
+	width: 40%;
+	height: 50%;
+	border:1px solid #000000;
+	font-size: 120%;
+	margin:5% 5% 5% 5%;
+	padding: 2% 0 2% 0;
+	font-family:"Myriad Pro",blackjackregular;
+	box-shadow:4px 5px 5px black;
+}
+
+#hint {
+	background-color:rgba(176,65,38,1.0);
+	color: #FFFFFF;
+	border:1px solid #000000;
+	width:40%;
+	font-size: 120%;
+	margin:5% 5% 5% 5%;
+	padding: 2% 0 2% 0;
+	font-family:"Myriad Pro",blackjackregular;
+	box-shadow:4px 5px 5px black;
+}
+*/
+
+#input {
+	border:1px solid #000000;
+	width: 100%;
+	background-color:rgba(229,229,229,0.5);
+}
+
+#correct {
+	margin:5% 5% 5% 5%;
+	padding: 2% 0 2% 15%;
+	font-family:titillium_bdbold,blackjackregular;
+	background-color:rgba(176,65,38,1.0);/*brownish*/
+	border:1px solid #000000;
+	color: #FFFFFF;
+	border-radius: 8px;
+	width: 45%;
+	box-shadow:4px 5px 15px black;
+	font-size:120%;
+}
+
+#sub:hover{
+	cursor:pointer;
+	background-color:rgba(9,181,103,0.5);/*light green*/
+}
+
+#hint:hover{
+	cursor:pointer;
+	/*background-color:rgba(6,252,149,0.5);*/
+	background-color:rgba(9,181,103,0.5);
+}
+
+/*#hintAll {
+	border:1px solid #000000;
+	align-content:center;
+}*/
+
+.cong {
+	margin:5% 5% 0% 5%;
+	font-family:NikaiaRegular,"Myriad Pro",blackjackregular;
+	background-color:rgba(9,181,103,0.7);
+	border:2px solid #000000;
+	color: #FFFFFF;
+	border-radius: 8px;
+	box-shadow:4px 5px 15px black;
+	font-size: 220%;
+	width: 40%;
+}
+
+a:hover{
+	cursor:pointer;
+}
+
+#cong {
+	display:none;
+}
+
+
+/*---------------------------------------------FONTS-------------------------------------*/
+
+@font-face {
+    font-family: blackjackregular;
+    src: url(fonts/blackjack/black_jack-webfont.eot);
+    src: url(fonts/blackjack/black_jack-webfont.eot?#iefix),
+         url(fonts/blackjack/black_jack-webfont.woff),
+         url(fonts/blackjack/black_jack-webfont.ttf),
+         url(fonts/blackjack/black_jack-webfont.svg#blackjackregular);
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: titillium_bdbold;
+    src: url(fonts/titillium/titillium-bold-webfont.eot);
+    src: url(fonts/titillium/titillium-bold-webfont.eot?#iefix),
+         url(fonts/titillium/titillium-bold-webfont.woff),
+         url(fonts/titillium/titillium-bold-webfont.ttf),
+         url(fonts/titillium/titillium-bold-webfont.svg#titillium_bdbold);
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: edoregular;
+    src: url(fonts/edo/edo-webfont.eot);
+    src: url(fonts/edo/edo-webfont.eot?#iefix),
+         url(fonts/edo/edo-webfont.woff),
+         url(fonts/edo/edo-webfont.ttf),
+         url(fonts/edo/edo-webfont.svg#edoregular);
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: NikaiaRegular;
+    src: url(fonts/nikaia/Nikaia-webfont.eot);
+    src: url(fonts/nikaia/Nikaia-webfont.eot?#iefix),
+         url(fonts/nikaia/Nikaia-webfont.woff),
+         url(fonts/nikaia/Nikaia-webfont.ttf),
+         url(fonts/nikaia/Nikaia-webfont.svg#NikaiaRegular);
+    font-weight: normal;
+    font-style: normal;
+
+}

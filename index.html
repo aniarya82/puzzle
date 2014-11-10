@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Puzzel try</title>
+<script src="javascript.js" type="text/javascript">
+</script>
+<link href="mainStyle.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+<div id="mainContent" >
+	<h1><b> Staters for guess </b></h1>
+	<div id="cointainer">
+    <div id="write">
+    	<h3 id="disp"> Rules For the Game: </h3>
+    	<ul id="rules">
+        	<li> This is simple puzzel. </li>
+            <li> Guess this Famous Celebrity in the image. </li>
+            <li> To get the next piece of image press Hint. </li>
+            <li> For every hint the score would decrease by certain amount. </li>
+            <li> At any time you can guess the Answer. </li>
+            <li> But before the score gets to zero. </li>
+            <li> Press Esc to jump to Home at any time </li>
+        </ul>
+    </div>
+    
+    <div id="choice">
+    	<h2> Choose your Difficulty level </h2>
+		<form action="gotolocation.cgi">
+    		<select id="newLocation">
+        		<option selected="selected">Choose your difficulty</option>
+            	<option value="easy.html">Easy</option>
+            	<option value="medium.html">Medium</option>
+            	<option value="tough.html">Tough</option>
+       		</select>
+       		<noscript>
+       			<input type="button" value="Go there">
+       		</noscript>
+    	</form>
+    </div>
+    </div>
+    
+</div>  
+</body>
+</html>

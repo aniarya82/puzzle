@@ -1,0 +1,361 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+	background-image:url(images/1481890.jpg);
+}
+
+#mainContent {
+	/*border:1px solid #000000;*/
+}
+
+#cointainer {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -o-box;
+	display: box;
+	-webkit-box-orient: horizontal;
+	-moz-box-orient: horizontal;
+	-o-box-orient: horizontal;
+	box-orient: horizontal;
+}
+
+#write {
+	/*float:left;
+	clear:right;
+	border:1px solid #000000;*/
+	width: 40%;
+	margin: 0% 5% 5% 5%;
+}
+
+#choice {
+	/*float:right;
+	clear:left;
+	border:1px solid #000000;*/
+	width: 40%;
+	margin: 0% 5% 5% 5%;
+}
+
+#rules {
+	display:none;
+}
+
+#disp:hover {
+	cursor:pointer;
+}
+
+
+h1{
+	font-family:titillium_bdbold;
+	font-size: 350%;
+	word-spacing: 8px;
+	margin-left:30%;
+}
+
+h3{
+	font-family:NikaiaRegular;
+	font-size: 220%;
+	/*text-decoration:underline;*/
+}
+
+li{
+	font-family:pacificoregular;
+	font-size: 150%;
+	
+}
+
+h2{
+	font-family:bitstream_vera_sansroman,titillium_bdbold_italic,blackjackregular,anudawitalic;
+	font-size: 220%;
+}
+
+ul{
+	list-style:none;
+}
+
+#newLocation {
+	font-family:titilliumregular;
+	font-size: 150%;
+	background-color:rgba(245,59,17,0.20);
+	border-width:thin;
+	box-shadow:rgba(20,139,237,0.30);
+}
+
+/* ---------------FONTS---------------------------- */
+
+
+
+@font-face {
+    font-family: titillium_bdbold;
+    src: url(fonts/titillium/titillium-bold-webfont.eot);
+    src: url(fonts/titillium/titillium-bold-webfont.eot?#iefix),
+         url(fonts/titillium/titillium-bold-webfont.woff),
+         url(fonts/titillium/titillium-bold-webfont.ttf),
+         url(fonts/titillium/titillium-bold-webfont.svg#titillium_bdbold);
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: titillium_bdbold_italic;
+    src: url(fonts/titillium/titillium-bolditalic-webfont.eot);
+    src: url(fonts/titillium/titillium-bolditalic-webfont.eot?#iefix),
+         url(fonts/titillium/titillium-bolditalic-webfont.woff),
+         url(fonts/titillium/titillium-bolditalic-webfont.ttf) ,
+         url(fonts/titillium/titillium-bolditalic-webfont.svg#titillium_bdbold_italic);
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: titilliumregular;
+    src: url(fonts/titillium/titillium-regular-webfont.eot);
+    src: url(fonts/titillium/titillium-regular-webfont.eot?#iefix),
+         url(font/titilliums/titillium-regular-webfont.woff),
+         url(fonts/titillium/titillium-regular-webfont.ttf),
+         url(fonts/titillium/titillium-regular-webfont.svg#titilliumregular);
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: titilliumitalic;
+    src: url(fonts/titillium/titillium-regularitalic-webfont.eot);
+    src: url(fonts/titillium/titillium-regularitalic-webfont.eot?#iefix),
+         url(fonts/titillium/titillium-regularitalic-webfont.woff),
+         url(fonts/titillium/titillium-regularitalic-webfont.ttf),
+         url(fonts/titillium/titillium-regularitalic-webfont.svg#titilliumitalic);
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: NikaiaRegular;
+    src: url(fonts/nikaia/Nikaia-webfont.eot);
+    src: url(fonts/nikaia/Nikaia-webfont.eot?#iefix),
+         url(fonts/nikaia/Nikaia-webfont.woff),
+         url(fonts/nikaia/Nikaia-webfont.ttf),
+         url(fonts/nikaia/Nikaia-webfont.svg#NikaiaRegular);
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: NikaiaRegularItalic;
+    src: url(fonts/nikaia/Nikaia_italic-webfont.eot);
+    src: url(fonts/nikaia/Nikaia_italic-webfont.eot?#iefix),
+         url(fonts/nikaia/Nikaia_italic-webfont.woff),
+         url(fonts/nikaia/Nikaia_italic-webfont.ttf),
+         url(fonts/nikaia/Nikaia_italic-webfont.svg#NikaiaRegularItalic);
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: pacificoregular;
+    src: url(fonts/pacifico/pacifico-webfont.eot);
+    src: url(fonts/pacifico/pacifico-webfont.eot?#iefix),
+         url(fonts/pacifico/pacifico-webfont.woff),
+         url(fonts/pacifico/pacifico-webfont.ttf),
+         url(fonts/pacifico/pacifico-webfont.svg#pacificoregular);
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: quanticobold;
+    src: url(fonts/quantico/quantico-bold-webfont.eot);
+    src: url(fonts/quantico/quantico-bold-webfont.eot?#iefix),
+         url(fonts/quantico/quantico-bold-webfont.woff),
+         url(fonts/quantico/quantico-bold-webfont.ttf),
+         url(fonts/quantico/quantico-bold-webfont.svg#quanticobold);
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: quanticobold_italic;
+    src: url(fonts/quantico/quantico-bolditalic-webfont.eot);
+    src: url(fonts/quantico/quantico-bolditalic-webfont.eot?#iefix),
+         url(fonts/quantico/quantico-bolditalic-webfont.woff),
+         url(fonts/quantico/quantico-bolditalic-webfont.ttf),
+         url(fonts/quantico/quantico-bolditalic-webfont.svg#quanticobold_italic);
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: quanticoitalic;
+    src: url(fonts/quantico/quantico-italic-webfont.eot);
+    src: url(fonts/quantico/quantico-italic-webfont.eot?#iefix),
+         url(fonts/quantico/quantico-italic-webfont.woff),
+         url(fonts/quantico/quantico-italic-webfont.ttf),
+         url(fonts/quantico/quantico-italic-webfont.svg#quanticoitalic);
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: teenregular;
+    src: url(fonts/teen/teen-webfont.eot);
+    src: url(fonts/teen/teen-webfont.eot?#iefix),
+         url(fonts/teen/teen-webfont.woff),
+         url(fonts/teen/teen-webfont.ttf),
+         url(fonts/teen/teen-webfont.svg#teenregular);
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: teenbold;
+    src: url(fonts/teen/teen_bold-webfont.eot);
+    src: url(fonts/teen/teen_bold-webfont.eot?#iefix),
+         url(fonts/teen/teen_bold-webfont.woff),
+         url(fonts/teen/teen_bold-webfont.ttf),
+         url(fonts/teen/teen_bold-webfont.svg#teenbold);
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: teenlight_italic;
+    src: url(fonts/teen/teen_light_italic-webfont.eot);
+    src: url(fonts/teen/teen_light_italic-webfont.eot?#iefix),
+         url(fonts/teen/teen_light_italic-webfont.woff),
+         url(fonts/teen/teen_light_italic-webfont.ttf),
+         url(fonts/teen/teen_light_italic-webfont.svg#teenlight_italic);
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: blackjackregular;
+    src: url(fonts/blackjack/black_jack-webfont.eot);
+    src: url(fonts/blackjack/black_jack-webfont.eot?#iefix),
+         url(fonts/blackjack/black_jack-webfont.woff),
+         url(fonts/blackjack/black_jack-webfont.ttf),
+         url(fonts/blackjack/black_jack-webfont.svg#blackjackregular);
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: anudawitalic;
+    src: url(fonts/anudaw/anudi___-webfont.eot);
+    src: url(fonts/anudaw/anudi___-webfont.eot?#iefix),
+         url(fonts/anudaw/anudi___-webfont.woff),
+         url(fonts/anudaw/anudi___-webfont.ttf),
+         url(fonts/anudaw/anudi___-webfont.svg#anudawitalic);
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: anudawregular;
+    src: url(fonts/anudaw/anudrg__-webfont.eot);
+    src: url(fonts/anudaw/anudrg__-webfont.eot?#iefix),
+         url(fonts/anudaw/anudrg__-webfont.woff),
+         url(fonts/anudaw/anudrg__-webfont.ttf),
+         url(fonts/anudaw/anudrg__-webfont.svg#anudawregular);
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: edoregular;
+    src: url(fonts/edo/edo-webfont.eot);
+    src: url(fonts/edo/edo-webfont.eot?#iefix),
+         url(fonts/edo/edo-webfont.woff),
+         url(fonts/edo/edo-webfont.ttf),
+         url(fonts/edo/edo-webfont.svg#edoregular);
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Generated by Font Squirrel (http://www.fontsquirrel.com) on June 15, 2014 */
+
+
+
+@font-face {
+    font-family: bitstream_vera_sansroman;
+    src: url(fonts/bitstream_vera/vera-webfont.eot);
+    src: url(fonts/bitstream_vera/vera-webfont.eot?#iefix),
+         url(fonts/bitstream_vera/vera-webfont.woff),
+         url(fonts/bitstream_vera/vera-webfont.ttf),
+         url(fonts/bitstream_vera/vera-webfont.svg#bitstream_vera_sansroman);
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: bitstream_vera_sansbold;
+    src: url(fonts/bitstream_vera/vera-bold-webfont.eot);
+    src: url(fonts/bitstream_vera/vera-bold-webfont.eot?#iefix),
+         url(fonts/bitstream_vera/vera-bold-webfont.woff),
+         url(fonts/bitstream_vera/vera-bold-webfont.ttf),
+         url(fonts/bitstream_vera/vera-bold-webfont.svg#bitstream_vera_sansbold);
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: bitstream_vera_sansoblique;
+    src: url(fonts/bitstream_vera/vera-italic-webfont.eot);
+    src: url(fonts/bitstream_vera/vera-italic-webfont.eot?#iefix),
+         url(fonts/bitstream_vera/vera-italic-webfont.woff),
+         url(fonts/bitstream_vera/vera-italic-webfont.ttf),
+         url(fonts/bitstream_vera/vera-italic-webfont.svg#bitstream_vera_sansoblique);
+    font-weight: normal;
+    font-style: normal;
+
+}
